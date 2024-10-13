@@ -1,0 +1,147 @@
+/* Global Start */
+:root {
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF;
+  --dark: #2E2F42;
+  --success: #31D0AA;
+  --text: #434455;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F4266;
+  --hero-bg: #2E2F42B2;
+  --white-bg: #FFFFFF;
+  --modal-bg: #FCFCFC;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+/* Hover and Focus Start */
+.nav-li a:hover, .nav-li a:focus {
+  color: #404BBF;
+}
+.addr-li a:hover, .addr-li a:focus {
+  color: #404BBF;
+}
+.footer-p:hover {
+  color: #404BBF
+}
+/* Hover and Focus End */
+/* Global End */
+/*Home Page Start*/
+.navbar-logo {
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.nav-li a {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.addr-li a {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.hero {
+  background-color: var(--dark);
+}
+.hero-h1 {
+  color: var(--white-bg);
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.5;
+}
+.hero-btn {
+  color: var(--white-bg);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.s2-title {
+  color: var(--dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.s2-h3 {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.s2-p {
+  color: var(--text);
+  line-height: 1.5;
+}
+.s3-title {
+  color: var(--dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.ourteam {
+  background-color: var(--light);
+}
+.ourteam-title {
+  color: var(--dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.ourteam-h3 {
+  color: var(--dark);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.ourteam-p {
+  color: var(--text);
+  text-align: center;
+  line-height: 1.5;
+}
+footer {
+  background-color: var(--dark);
+}
+.footer-p {
+  color: var(--light);
+}
+/*Home Page End*/
+/* Portfolio Start */
+.btn-active {
+  color: var(--white-bg);
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--pressed-state);
+}
+.filters-btn {
+  color: var(--primary-brand);
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--light);
+}
+.filters-h3 {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.filters-p {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Portfolio End */
