@@ -14,6 +14,8 @@
   --modal-bg: #FCFCFC;
 }
 body {
+  color: var(--text);
+  background-color: var(--white-bg);
   font-family: Roboto, sans-serif;
 }
 button {
@@ -33,21 +35,45 @@ button {
 /* Global End */
 /*Home Page Start*/
 .navbar-logo {
-  color: var(--dark);
+  color: var(--primary-brand);
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.nav-li a {
+.logo {
+  text-decoration: none;
+}
+.navbar-logo span {
+  color: var(--dark);
+}
+.nav-ul {
+  list-style: none;
+}
+li a {
   color: var(--dark);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
+}
+.home_link {
+  color: var(--dark);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.addr-ul {
+  list-style: none;
 }
 .addr-li a {
   color: var(--text);
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .hero {
   background-color: var(--dark);
