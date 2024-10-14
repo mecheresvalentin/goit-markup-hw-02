@@ -163,11 +163,31 @@ footer {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .filters-p {
   color: var(--text);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-btn {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+  color: var(--white-bg);
+  background-color: var(--pressed-state);
+}
+.portfolio-buttons, .portfolio-cards {
+  list-style: none;
+  text-decoration: none;
 }
 /* Portfolio End */
