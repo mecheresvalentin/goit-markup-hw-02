@@ -56,8 +56,11 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo span {
+.nav-logo-span {
   color: var(--dark);
+}
+.logo-span {
+  color: var(--light);
 }
 .nav-list-item {
   color: var(--dark);
@@ -103,29 +106,30 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero-btn:hover, .hero-btn:focus {
+.main-btn:hover, .main-btn:focus {
   background-color: var(--pressed-state);
 }
-.s2-title {
+.features-title {
   color: var(--dark);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
 }
-.section-tow-header {
+.portfolio-filters-header {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-tow-p {
+.portfolio-filters-p {
   color: var(--text);
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.s3-title {
+.third-title {
   color: var(--dark);
   text-align: center;
   text-transform: capitalize;
@@ -133,7 +137,7 @@ button {
   font-weight: 700;
   line-height: 1.11;
 }
-.ourteam {
+.ourteam-section {
   background-color: var(--light);
 }
 .ourteam-title {
@@ -162,11 +166,22 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-footer {
+.footer-section {
   background-color: var(--dark);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .footer-p {
   color: var(--light);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*Home Page End*/
 /* Portfolio Start */
