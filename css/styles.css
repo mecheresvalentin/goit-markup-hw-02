@@ -34,6 +34,9 @@ button {
 /* Hover and Focus End */
 /* Global End */
 /*Home Page Start*/
+.navbar {
+  list-style: none;
+}
 .navbar-logo {
   color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
