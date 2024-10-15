@@ -70,8 +70,8 @@ button {
 .a_active:hover, .a_active:focus {
   color: #404BBF;
 }
-.addr-tag {
-  font-size: normal;
+.address-section {
+  font-style: normal;
 }
 .addr-ul {
   list-style: none;
