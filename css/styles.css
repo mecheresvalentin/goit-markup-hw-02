@@ -43,7 +43,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo {
+.link {
   text-decoration: none;
 }
 .navbar-logo span {
@@ -52,12 +52,16 @@ button {
 .nav-ul {
   list-style: none;
 }
-li a {
+.navbar-a {
   color: var(--dark);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
+}
+.a_active:hover, .a_active:focus {
+  color: #404BBF;
 }
 .home_link {
   color: var(--dark);
@@ -66,13 +70,17 @@ li a {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+.addr-tag {
+  font-size: normal;
+}
 .addr-ul {
   list-style: none;
 }
-.addr-li a {
+.addr-a {
   color: var(--text);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .hero {
