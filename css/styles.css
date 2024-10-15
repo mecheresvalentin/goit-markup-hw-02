@@ -18,12 +18,16 @@ body {
   background-color: var(--white-bg);
   font-family: 'Roboto', sans-serif;
 }
-ul {
-  list-style: none;
-}
 button {
   cursor: pointer;
 }
+.default-list {
+  list-style: none;
+}
+.default-link {
+  text-decoration: none;
+}
+
 /* Hover and Focus Start */
 .nav-li a:hover, .nav-li a:focus {
   color: #404BBF;
@@ -36,6 +40,7 @@ button {
 }
 /* Hover and Focus End */
 /* Global End */
+
 /*Home Page Start*/
 .navbar {
   list-style: none;
