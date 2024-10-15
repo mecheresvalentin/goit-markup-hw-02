@@ -49,7 +49,7 @@ button {
 .navbar-logo span {
   color: var(--dark);
 }
-.nav-ul {
+.default-list-class {
   list-style: none;
 }
 .navbar-a {
