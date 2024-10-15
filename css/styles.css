@@ -30,13 +30,10 @@ button {
 .address {
   font-style: inherit;
 }
+.nav-list-item.active {
+  color: #404BBF !important;
+}
 /* Hover and Focus Start */
-.nav-li a:hover, .nav-li a:focus {
-  color: #404BBF;
-}
-.addr-li a:hover, .addr-li a:focus {
-  color: #404BBF;
-}
 .footer-p:hover {
   color: #404BBF
 }
@@ -68,7 +65,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .link:hover, .link:focus {
   color: #404BBF;
@@ -121,6 +117,10 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-p {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .third-title {
