@@ -18,6 +18,9 @@ body {
   background-color: var(--white-bg);
   font-family: 'Roboto', sans-serif;
 }
+ul {
+  list-style: none;
+}
 button {
   cursor: pointer;
 }
@@ -51,9 +54,6 @@ button {
 }
 .navbar-logo span {
   color: var(--dark);
-}
-.default-list-class {
-  list-style: none;
 }
 .navbar-a {
   color: var(--dark);
