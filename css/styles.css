@@ -67,7 +67,7 @@ button {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.a_active:hover, .a_active:focus {
+.link:hover, .link:focus {
   color: #404BBF;
 }
 .address-section {
