@@ -131,9 +131,10 @@ button {
 .s3-title {
   color: var(--dark);
   text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
 }
 .ourteam {
   background-color: var(--light);
@@ -141,21 +142,28 @@ button {
 .ourteam-title {
   color: var(--dark);
   text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
-.ourteam-h3 {
+.ourteam-card {
+  background-color: var(--white-bg);
+}
+.ourteam-header {
   color: var(--dark);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .ourteam-p {
   color: var(--text);
   text-align: center;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 footer {
   background-color: var(--dark);
